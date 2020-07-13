@@ -1,28 +1,55 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="components-layout-demo-basic">
+    <a-layout>
+      <a-layout-header>Toko Online</a-layout-header>
+      <a-layout-content>
+        <ProductList />
+        <ProductList />
+        <ProductList />
+        <ProductList />
+      </a-layout-content>
+      <a-layout-footer>PT ABC Copyright 2020</a-layout-footer>
+    </a-layout>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import ProductList from './components/ProductList';
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
+    ProductList
   }
-}
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+#components-layout-demo-basic {
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+}
+#components-layout-demo-basic .ant-layout-header,
+#components-layout-demo-basic .ant-layout-footer {
+  background: #7dbcea;
+  color: #fff;
+}
+#components-layout-demo-basic .ant-layout-footer {
+  line-height: 1.5;
+}
+#components-layout-demo-basic .ant-layout-sider {
+  background: #3ba0e9;
+  color: #fff;
+  line-height: 120px;
+}
+#components-layout-demo-basic .ant-layout-content {
+  background: rgba(16, 142, 233, 1);
+  color: #fff;
+  min-height: 120px;
+  line-height: 120px;
+}
+#components-layout-demo-basic > .ant-layout {
+  margin-bottom: 48px;
+}
+#components-layout-demo-basic > .ant-layout:last-child {
+  margin: 0;
 }
 </style>
