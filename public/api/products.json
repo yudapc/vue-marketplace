@@ -1,0 +1,1106 @@
+{
+  "code": 200,
+  "message": "berhasil mengambil data product",
+  "success": "true",
+  "data": [
+    {
+      "id": "457692c1-5d68-4afe-93ae-411830e34cd6",
+      "name": "MINI PC GIGABYTE BRIX GB-BACE-3000",
+      "description": "Dimension 56.1 mm x 107.6 mm x 114.4 mm (2.21\" x 4.24\" x 4.5\")\nMotherboard Size 100 x 105 mm\nCPU Intel\" Celeron\" Processor N3000 up to 2.08GHz\nMemory 1x SO-DIMM DDR3L 1.35V slot",
+      "min_price": 5000,
+      "max_price": 5000,
+      "min_wholesale_price": 0,
+      "width": 6.5,
+      "length": 6,
+      "height": 7.5,
+      "weight": 54,
+      "min_quantity": 1,
+      "multiples_of_quantity": 1,
+      "unit": "Unit",
+      "has_ppn": true,
+      "has_variation": false,
+      "sku_code": "QA0005",
+      "stock": 704,
+      "original_price": 5000,
+      "special_price": 0,
+      "special_price_from": null,
+      "special_price_to": null,
+      "created_at": "2019-12-02T03:16:46.000000Z",
+      "updated_at": "2020-07-16T06:18:02.000000Z",
+      "is_reviewed": true,
+      "is_published": true,
+      "masked_id": 312,
+      "is_in_wishlist": false,
+      "has_ongoing_negotiation": false,
+      "category": {
+        "id": "EVEBD9jlxdOQP3nkMv6X7apqEvoNLrwbzemo2RyAg10WYJ54ZG",
+        "name": "Mini PC",
+        "full_name": " Komputer, Handphone,  & Elektronik > Komputer & Laptop > Mini PC"
+      },
+      "brand": null,
+      "images": [
+        {
+          "path": "public/images/dozSyqBtEbNdfSeX1A0frNzrdx6wcjpSSfAsACVQ.png",
+          "url": "https://bisnisblanja-dev.s3.ap-southeast-1.amazonaws.com/public/images/dozSyqBtEbNdfSeX1A0frNzrdx6wcjpSSfAsACVQ.png"
+        }
+      ]
+    },
+    {
+      "id": "b925ef99-bc0f-441e-a63d-776076417922",
+      "name": "Gaming Data Cable / kabel data gaming TEKINI KM02 Micro USB Android - Merah",
+      "description": "Kabel Data terbaik persembahan dari Tekini khusus buat anda pecinta game smartphone\n\nDengan bentuk khusus ujung kabel membentuk 90 derajat memudahkan pengguna mengisi daya smartphone sambil bermain game, membuat bermain pada smartphone tetap nyaman\n\nTerdapat 2 varian Merah dan Hitam\n\n\nFeature:\nOutput: 5V-2.1A\nLengh: 100CM\n1.Enviromental silicone wire,soft and flexible,tensile,bending\n2.Flat design,effective anti-winding.\n3.High quality fitting,rust-resistant piug.\n4.High-speed transmission,fast charging.",
+      "min_price": 50000,
+      "max_price": 50000,
+      "min_wholesale_price": 0,
+      "width": 6.4,
+      "length": 5.4,
+      "height": 7.4,
+      "weight": 53,
+      "min_quantity": 1,
+      "multiples_of_quantity": 1,
+      "unit": "Unit",
+      "has_ppn": true,
+      "has_variation": false,
+      "sku_code": "QA0004",
+      "stock": 390,
+      "original_price": 50000,
+      "special_price": 0,
+      "special_price_from": null,
+      "special_price_to": null,
+      "created_at": "2019-12-02T03:16:46.000000Z",
+      "updated_at": "2020-07-16T06:18:02.000000Z",
+      "is_reviewed": true,
+      "is_published": true,
+      "masked_id": 315,
+      "is_in_wishlist": false,
+      "has_ongoing_negotiation": false,
+      "category": {
+        "id": "VJ06L9YaGydzR7j5pWDrwb18R1zNVmAonZlk2MQv4XOx3BEgeP",
+        "name": "Kabel Data",
+        "full_name": " Komputer, Handphone,  & Elektronik > Aksesoris Handphone & Tablet > Kabel Data"
+      },
+      "brand": null,
+      "images": [
+        {
+          "path": "public/images/XGiZcrXyep7vNxzRlCFhooWfh5WScuXVVhLI6a49.jpg",
+          "url": "https://bisnisblanja-dev.s3.ap-southeast-1.amazonaws.com/public/images/XGiZcrXyep7vNxzRlCFhooWfh5WScuXVVhLI6a49.jpg"
+        }
+      ]
+    },
+    {
+      "id": "aadd9515-cdc6-467f-94f1-d7f26d4c84c6",
+      "name": "Joyko Glue GL-R35 35 ml",
+      "description": "glue",
+      "min_price": 5000,
+      "max_price": 5000,
+      "min_wholesale_price": 0,
+      "width": 6.1,
+      "length": 5.1,
+      "height": 7.1,
+      "weight": 50,
+      "min_quantity": 100,
+      "multiples_of_quantity": 100,
+      "unit": "Pcs",
+      "has_ppn": false,
+      "has_variation": false,
+      "sku_code": "11SKU0113",
+      "stock": 1000,
+      "original_price": 5000,
+      "special_price": 0,
+      "special_price_from": null,
+      "special_price_to": null,
+      "created_at": "2020-04-27T09:25:50.000000Z",
+      "updated_at": "2020-07-15T12:49:24.000000Z",
+      "is_reviewed": true,
+      "is_published": true,
+      "masked_id": 479,
+      "is_in_wishlist": false,
+      "has_ongoing_negotiation": false,
+      "category": {
+        "id": "A3g64Y0Bev951pVOboaMrAGqPxqkLRxZlPjdXmQyznDwJ7W2Em",
+        "name": "Business Services",
+        "full_name": " MRO Product & Business Services > Business Services"
+      },
+      "brand": {
+        "id": "WRkZ6oOWj0d2BbyzJ4egmYVKDdK9nvGMQ3xwAD7P1LrElX5ap5",
+        "name": "BenQ"
+      },
+      "wholesale_prices": [
+        { "min_quantity": 100, "price": 4000 },
+        { "min_quantity": 250, "price": 2500 },
+        { "min_quantity": 200, "price": 3000 },
+        { "min_quantity": 150, "price": 3500 },
+        { "min_quantity": 50, "price": 4500 }
+      ],
+      "images": [
+        {
+          "path": "public/images/aNcWG5XDse2oLBnk1a3uo3PSBPlEAhlvAzWGUYfB.JPG",
+          "url": "https://bisnisblanja-dev.s3.ap-southeast-1.amazonaws.com/public/images/aNcWG5XDse2oLBnk1a3uo3PSBPlEAhlvAzWGUYfB.JPG"
+        }
+      ]
+    },
+    {
+      "id": "cd398587-8452-4c39-8813-571472f4942c",
+      "name": "Iphone X (Silver, 64 GB) (Refurbish)",
+      "description": "<p>OS iOS 11.1.1, upgradable to iOS 13.3 Chipset : Apple A11 Bionic (10 nm) CPU : Hexa-core 2.39 GHz (2x Monsoon + 4x Mistral) GPU : Apple GPU (three-core graphics) Size : 5.8 Inch, 84.4 cm2 (~82.9% screen-to-body ratio) </p>",
+      "min_price": 8650000,
+      "max_price": 8650000,
+      "min_wholesale_price": 0,
+      "width": 6.1,
+      "length": 5.1,
+      "height": 7.1,
+      "weight": 50,
+      "min_quantity": 100,
+      "multiples_of_quantity": 100,
+      "unit": "Pcs",
+      "has_ppn": false,
+      "has_variation": false,
+      "sku_code": "TEST003",
+      "stock": 200,
+      "original_price": 8650000,
+      "special_price": 0,
+      "special_price_from": null,
+      "special_price_to": null,
+      "created_at": "2020-06-22T12:21:43.000000Z",
+      "updated_at": "2020-07-14T02:37:18.000000Z",
+      "is_reviewed": true,
+      "is_published": true,
+      "masked_id": 611,
+      "is_in_wishlist": false,
+      "has_ongoing_negotiation": false,
+      "category": {
+        "id": "RY4yzxORbZLj1J5PawEvD798rgKdVk0WoXGrAlBngpeM2m36QY",
+        "name": "iOS Smartphone",
+        "full_name": " Komputer, Handphone,  & Elektronik > Smartphone > iOS Smartphone"
+      },
+      "brand": null,
+      "images": [
+        {
+          "path": "public/images/Yy77Lgdp5Ia9jrQtz2qVH45yfBNJ5sWyIOIyH0lS.jpg",
+          "url": "https://bisnisblanja-dev.s3.ap-southeast-1.amazonaws.com/public/images/Yy77Lgdp5Ia9jrQtz2qVH45yfBNJ5sWyIOIyH0lS.jpg"
+        }
+      ]
+    },
+    {
+      "id": "458b2863-9430-47c4-91fe-9f9237484613",
+      "name": "Ford Explorer Sport Trac",
+      "description": "<p>Penyewaan TRAC</p>",
+      "min_price": 450000,
+      "max_price": 450000,
+      "min_wholesale_price": 0,
+      "width": 150,
+      "length": 250,
+      "height": 300,
+      "weight": 1000000,
+      "min_quantity": 1,
+      "multiples_of_quantity": 1,
+      "unit": "Unit",
+      "has_ppn": false,
+      "has_variation": false,
+      "sku_code": "QA5001",
+      "stock": 4,
+      "original_price": 450000,
+      "special_price": 0,
+      "special_price_from": null,
+      "special_price_to": null,
+      "created_at": "2019-12-02T07:12:46.000000Z",
+      "updated_at": "2020-07-13T06:43:39.000000Z",
+      "is_reviewed": true,
+      "is_published": true,
+      "masked_id": 351,
+      "is_in_wishlist": false,
+      "has_ongoing_negotiation": false,
+      "category": {
+        "id": "EZBWOjdL0YJ2mbPyr7eQApv8jpwqGX1w46Mo5VlDgE3z9kxnaR",
+        "name": "TRAC",
+        "full_name": "Business Service > Sewa Kendaraan > TRAC"
+      },
+      "brand": null,
+      "images": [
+        {
+          "path": "public/images/PihTOGOHtzbojsqhM4EAjPANXJeM9CSC6htnUZAz.jpg",
+          "url": "https://bisnisblanja-dev.s3.ap-southeast-1.amazonaws.com/public/images/PihTOGOHtzbojsqhM4EAjPANXJeM9CSC6htnUZAz.jpg"
+        }
+      ]
+    },
+    {
+      "id": "4c2698b8-d7b2-4c90-96ad-1df6268e21c5",
+      "name": "Ink Refill Bottle for Canon Dell HP Printer Ink",
+      "description": "Tinta isi ulang untuk ink jet dan cartridges printer seperti printer Canon, Dell & HP. Dapat juga digunakan untuk printer merk lain. Hadir dengan beberapa warna seperti hitam, kuning, magenta dan biru.",
+      "min_price": 35000,
+      "max_price": 35000,
+      "min_wholesale_price": 0,
+      "width": 5,
+      "length": 5,
+      "height": 9,
+      "weight": 400,
+      "min_quantity": 1,
+      "multiples_of_quantity": 1,
+      "unit": "Unit",
+      "has_ppn": false,
+      "has_variation": false,
+      "sku_code": "QA1003",
+      "stock": 148,
+      "original_price": 35000,
+      "special_price": 0,
+      "special_price_from": null,
+      "special_price_to": null,
+      "created_at": "2019-12-02T04:18:27.000000Z",
+      "updated_at": "2020-07-11T06:52:15.000000Z",
+      "is_reviewed": true,
+      "is_published": true,
+      "masked_id": 320,
+      "is_in_wishlist": false,
+      "has_ongoing_negotiation": false,
+      "category": {
+        "id": "ygp1dYmaW6rxyb2Pk9nMJvOq9wd8Q7DGLA0l3B4zZXj5EeRoVw",
+        "name": "Tinta Printer",
+        "full_name": "Peralatan Kantor > Tinta & Toner > Tinta Printer"
+      },
+      "brand": null,
+      "images": [
+        {
+          "path": "public/images/7LQdluOoIZ8A6U4VQOn1P7h1LX5tNaw6rKxxMAwd.JPG",
+          "url": "https://bisnisblanja-dev.s3.ap-southeast-1.amazonaws.com/public/images/7LQdluOoIZ8A6U4VQOn1P7h1LX5tNaw6rKxxMAwd.JPG"
+        }
+      ]
+    },
+    {
+      "id": "a801c6f6-2cbe-4c1a-b9a7-57dfb89afa19",
+      "name": "Vention Kabel Ethernet LAN Network RJ45 Cat7 2M - ICAB - Black",
+      "description": "Kabel data terbaik persembahan dari Tekini khusus buat anda pecinta game smartphone\n\nDengan bentuk khusus ujung kabel membentuk 90 derajat memudahkan pengguna mengisi daya smartphone sambil bermain game, membuat bermain pada smartphone tetap nyaman\n\nTerda",
+      "min_price": 20000,
+      "max_price": 20000,
+      "min_wholesale_price": 0,
+      "width": 6.6,
+      "length": 5.7,
+      "height": 7.6,
+      "weight": 55,
+      "min_quantity": 1,
+      "multiples_of_quantity": 1,
+      "unit": "Unit",
+      "has_ppn": true,
+      "has_variation": false,
+      "sku_code": "QA0006",
+      "stock": 294,
+      "original_price": 20000,
+      "special_price": 0,
+      "special_price_from": null,
+      "special_price_to": null,
+      "created_at": "2019-12-02T03:16:46.000000Z",
+      "updated_at": "2020-07-11T06:52:15.000000Z",
+      "is_reviewed": true,
+      "is_published": true,
+      "masked_id": 313,
+      "is_in_wishlist": false,
+      "has_ongoing_negotiation": false,
+      "category": {
+        "id": "RY4yzxORbZLj1J5PawEvD798rGgKdVk0WoXGrAlBngpeM2m36Q",
+        "name": "LAN Cable",
+        "full_name": " Komputer, Handphone,  & Elektronik > Cable & Aksesories Laptop/PC > LAN Cable"
+      },
+      "brand": null,
+      "images": [
+        {
+          "path": "public/images/4q5LfkpR76gPwBsYzRVnH87C6p7fdgZzoZWqRe2I.jpg",
+          "url": "https://bisnisblanja-dev.s3.ap-southeast-1.amazonaws.com/public/images/4q5LfkpR76gPwBsYzRVnH87C6p7fdgZzoZWqRe2I.jpg"
+        }
+      ]
+    },
+    {
+      "id": "4185bc16-3030-4a8d-8296-9824f01c4b5a",
+      "name": "BROTHER M2000TR MESIN KETIK/TIK MANUAL 13\" INC",
+      "description": "Maks. Lebar Kertas Masuk: 13 Inch\nJenis Huruf: Pica & Elite\nWarna Ketikan: Hitam",
+      "min_price": 825000,
+      "max_price": 825000,
+      "min_wholesale_price": 0,
+      "width": 30,
+      "length": 20,
+      "height": 15,
+      "weight": 7000,
+      "min_quantity": 1,
+      "multiples_of_quantity": 1,
+      "unit": "Unit",
+      "has_ppn": false,
+      "has_variation": false,
+      "sku_code": "QA1002",
+      "stock": 10,
+      "original_price": 825000,
+      "special_price": 0,
+      "special_price_from": null,
+      "special_price_to": null,
+      "created_at": "2019-12-02T04:18:27.000000Z",
+      "updated_at": "2020-07-11T06:50:53.000000Z",
+      "is_reviewed": true,
+      "is_published": true,
+      "masked_id": 319,
+      "is_in_wishlist": false,
+      "has_ongoing_negotiation": false,
+      "category": {
+        "id": "A3g64Y0Bev951pVOboaMrAGqPGwKkLRxZlPjdXmQyznDwJ7W2E",
+        "name": "Mesin Tik",
+        "full_name": "Peralatan Kantor > Perangkat Administrator Kantor > Mesin Tik"
+      },
+      "brand": null,
+      "images": [
+        {
+          "path": "public/images/6jeGWceULTXXGuWmjbTk2uhGufdCoyl1tSg7tBYJ.jpg",
+          "url": "https://bisnisblanja-dev.s3.ap-southeast-1.amazonaws.com/public/images/6jeGWceULTXXGuWmjbTk2uhGufdCoyl1tSg7tBYJ.jpg"
+        }
+      ]
+    },
+    {
+      "id": "5334bdb9-1b0d-4ab4-876f-fb127335af88",
+      "name": "SAMSUNG Galaxy Tab S6 [SM-T865NZNAXID] - 128GB/6GB - Rose Blush",
+      "description": "Chipset: Qualcomm SDM855 Snapdragon 855\nKamera Belakang: 13 MP + 5 MP\nKamera Depan: 8 MP\nUkuran Layar: 10.5 inch sAMOLED\nBattery: 7040 mAh\nSistem Operasi: Android 9.0 Pie",
+      "min_price": 11999000,
+      "max_price": 11999000,
+      "min_wholesale_price": 0,
+      "width": 6.2,
+      "length": 5.21,
+      "height": 7.2,
+      "weight": 51,
+      "min_quantity": 1,
+      "multiples_of_quantity": 1,
+      "unit": "Unit",
+      "has_ppn": true,
+      "has_variation": false,
+      "sku_code": "QA0002",
+      "stock": 22,
+      "original_price": 11999000,
+      "special_price": 0,
+      "special_price_from": null,
+      "special_price_to": null,
+      "created_at": "2019-12-02T03:16:45.000000Z",
+      "updated_at": "2020-07-11T06:50:53.000000Z",
+      "is_reviewed": true,
+      "is_published": true,
+      "masked_id": 310,
+      "is_in_wishlist": false,
+      "has_ongoing_negotiation": false,
+      "category": {
+        "id": "meM9yXvGY3w1k5BPA6JRVWg8Qg3q2lLoOjaDn0Z7QEmr4pxbdz",
+        "name": "Tablet Android",
+        "full_name": " Komputer, Handphone,  & Elektronik > Tablet > Tablet Android"
+      },
+      "brand": null,
+      "images": [
+        {
+          "path": "public/images/cpHsqyAiLl4pdFYIj5km8Xs0CFg8n6Hm89ImqFsB.jpg",
+          "url": "https://bisnisblanja-dev.s3.ap-southeast-1.amazonaws.com/public/images/cpHsqyAiLl4pdFYIj5km8Xs0CFg8n6Hm89ImqFsB.jpg"
+        }
+      ]
+    },
+    {
+      "id": "b7c23b36-8a70-4a1d-bb69-20d2b564c3aa",
+      "name": "Iphone 11",
+      "description": "iPhone 11 tampil dengan layar LCD 6,1 inci liquid Retina Display dengan dibekali dua sensor kamera yaitu 12MP Wide dan 12MP Ultra Wide yang dipasang vertikal dalam kotak berisi lampu flash",
+      "min_price": 18000000,
+      "max_price": 18000000,
+      "min_wholesale_price": 0,
+      "width": 6.1,
+      "length": 5.1,
+      "height": 7.1,
+      "weight": 50,
+      "min_quantity": 1,
+      "multiples_of_quantity": 1,
+      "unit": "Unit",
+      "has_ppn": true,
+      "has_variation": false,
+      "sku_code": "QA0001",
+      "stock": 14,
+      "original_price": 18000000,
+      "special_price": 0,
+      "special_price_from": null,
+      "special_price_to": null,
+      "created_at": "2019-12-02T03:17:47.000000Z",
+      "updated_at": "2020-07-11T06:50:53.000000Z",
+      "is_reviewed": true,
+      "is_published": true,
+      "masked_id": 317,
+      "is_in_wishlist": false,
+      "has_ongoing_negotiation": false,
+      "category": {
+        "id": "RY4yzxORbZLj1J5PawEvD798rgKdVk0WoXGrAlBngpeM2m36QY",
+        "name": "iOS Smartphone",
+        "full_name": " Komputer, Handphone,  & Elektronik > Smartphone > iOS Smartphone"
+      },
+      "brand": null,
+      "images": [
+        {
+          "path": "public/images/dAfRZgpDaPcUnRxx4ZrnYsiKBXFoKZnpfJ2MQTHq.jpg",
+          "url": "https://bisnisblanja-dev.s3.ap-southeast-1.amazonaws.com/public/images/dAfRZgpDaPcUnRxx4ZrnYsiKBXFoKZnpfJ2MQTHq.jpg"
+        }
+      ]
+    },
+    {
+      "id": "1efcbf87-252d-4d34-905c-335957636faf",
+      "name": "Unicorn Pulpen Silika Rainbow",
+      "description": "For orders > 20 Lusin,Free Shipping via China Post Registry Air Mail with Valid Tracking Number.",
+      "min_price": 30000,
+      "max_price": 30000,
+      "min_wholesale_price": 0,
+      "width": 1,
+      "length": 1,
+      "height": 10,
+      "weight": 250,
+      "min_quantity": 1,
+      "multiples_of_quantity": 1,
+      "unit": "Lusin",
+      "has_ppn": false,
+      "has_variation": false,
+      "sku_code": "QA1004",
+      "stock": 745,
+      "original_price": 30000,
+      "special_price": 0,
+      "special_price_from": null,
+      "special_price_to": null,
+      "created_at": "2019-12-02T04:18:28.000000Z",
+      "updated_at": "2020-07-09T08:47:16.000000Z",
+      "is_reviewed": true,
+      "is_published": true,
+      "masked_id": 322,
+      "is_in_wishlist": false,
+      "has_ongoing_negotiation": false,
+      "category": {
+        "id": "J1JVgv6mRa5dDpeYjAyxbMlq3x6NLP7EOzwXZ9Q4Bk3GW0on2r",
+        "name": "Pulpen & Pensil",
+        "full_name": "Peralatan Kantor > Alat Tulis > Pulpen & Pensil"
+      },
+      "brand": null,
+      "images": [
+        {
+          "path": "public/images/mW1U4EBUkHLHO41okWzKneB3Xpd55hLhY8YYGsSp.jpg",
+          "url": "https://bisnisblanja-dev.s3.ap-southeast-1.amazonaws.com/public/images/mW1U4EBUkHLHO41okWzKneB3Xpd55hLhY8YYGsSp.jpg"
+        }
+      ]
+    },
+    {
+      "id": "25e9af73-de82-4283-998d-51f8b2cc4f6f",
+      "name": "aice59",
+      "description": "<p>deskripsinya</p>",
+      "min_price": 1000,
+      "max_price": 1000,
+      "min_wholesale_price": 0,
+      "width": 1,
+      "length": 1,
+      "height": 1,
+      "weight": 1,
+      "min_quantity": 1,
+      "multiples_of_quantity": 1,
+      "unit": "Pcs",
+      "has_ppn": false,
+      "has_variation": false,
+      "sku_code": "aic059",
+      "stock": 999999998,
+      "original_price": 1000,
+      "special_price": 0,
+      "special_price_from": null,
+      "special_price_to": null,
+      "created_at": "2020-06-19T15:00:10.000000Z",
+      "updated_at": "2020-07-08T04:13:02.000000Z",
+      "is_reviewed": true,
+      "is_published": true,
+      "masked_id": 598,
+      "is_in_wishlist": false,
+      "has_ongoing_negotiation": false,
+      "category": {
+        "id": "W39EGyRkMOmQ1Zel7pD6PXdqAg8YnjwBLWrz5JobgAax0V24vQ",
+        "name": "Smartphone Android",
+        "full_name": " Komputer, Handphone,  & Elektronik > Smartphone > Smartphone Android"
+      },
+      "brand": {
+        "id": "meM9yXvGY3w1k5BPA6JRVWg8Q3q2lLoOjaDn0Z7QEmr4pxbdzz",
+        "name": "Canon"
+      },
+      "images": [
+        {
+          "path": "uploads/6f07a30c-35e3-4fd1-969c-84f13f22dfca/pXph5h3LUDyKNOheMdKWveTSvgjHASbG9IjuDdBK.jpeg",
+          "url": "https://bisnisblanja-dev.s3.ap-southeast-1.amazonaws.com/uploads/6f07a30c-35e3-4fd1-969c-84f13f22dfca/pXph5h3LUDyKNOheMdKWveTSvgjHASbG9IjuDdBK.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "4781fcbc-cc81-49e4-aeef-871eb40e282b",
+      "name": "Kertas Kado SiDU",
+      "description": "Kertas Kado Warna Warni yang cantik nan elok ",
+      "min_price": 2000,
+      "max_price": 2000,
+      "min_wholesale_price": 0,
+      "width": 49,
+      "length": 64,
+      "height": 1,
+      "weight": 10,
+      "min_quantity": 10,
+      "multiples_of_quantity": 2,
+      "unit": "Pcs",
+      "has_ppn": true,
+      "has_variation": false,
+      "sku_code": "3ANS013",
+      "stock": 3485,
+      "original_price": 2000,
+      "special_price": 0,
+      "special_price_from": null,
+      "special_price_to": null,
+      "created_at": "2020-04-21T09:54:11.000000Z",
+      "updated_at": "2020-07-07T06:20:02.000000Z",
+      "is_reviewed": true,
+      "is_published": true,
+      "masked_id": 464,
+      "is_in_wishlist": false,
+      "has_ongoing_negotiation": false,
+      "category": {
+        "id": "MykXRxOAjbJ4B1p9Wv32azr8gDxKGDYEoZem65gndMwV7PlLQ0",
+        "name": "Kamera DSLR",
+        "full_name": " Komputer, Handphone,  & Elektronik > Kamera > Kamera DSLR"
+      },
+      "brand": null,
+      "wholesale_prices": [
+        { "min_quantity": 20, "price": 1800 },
+        { "min_quantity": 40, "price": 1500 }
+      ],
+      "images": [
+        {
+          "path": "public/images/TsInLcH2CU7I8xcb2RNv7sccQKHGDBOotfbhh9ZA.png",
+          "url": "https://bisnisblanja-dev.s3.ap-southeast-1.amazonaws.com/public/images/TsInLcH2CU7I8xcb2RNv7sccQKHGDBOotfbhh9ZA.png"
+        }
+      ]
+    },
+    {
+      "id": "490c5651-13eb-428e-b7bc-9a10610e3c77",
+      "name": "Tes Kelipatan Produk",
+      "description": "<p>Product ini hanya untuk testing dimana memiliki kelipatan</p>",
+      "min_price": 15000,
+      "max_price": 15000,
+      "min_wholesale_price": 0,
+      "width": 15,
+      "length": 10,
+      "height": 10,
+      "weight": 200,
+      "min_quantity": 2,
+      "multiples_of_quantity": 2,
+      "unit": "Pcs",
+      "has_ppn": true,
+      "has_variation": false,
+      "sku_code": "sku00001",
+      "stock": 985,
+      "original_price": 15000,
+      "special_price": 0,
+      "special_price_from": null,
+      "special_price_to": null,
+      "created_at": "2020-04-23T16:13:27.000000Z",
+      "updated_at": "2020-07-07T06:20:02.000000Z",
+      "is_reviewed": true,
+      "is_published": true,
+      "masked_id": 476,
+      "is_in_wishlist": false,
+      "has_ongoing_negotiation": false,
+      "category": {
+        "id": "W39EGyRkMOmQ1Zel7pD6PXdqAg8YnjwBLWrz5JobgAax0V24vQ",
+        "name": "Smartphone Android",
+        "full_name": " Komputer, Handphone,  & Elektronik > Smartphone > Smartphone Android"
+      },
+      "brand": {
+        "id": "wnQ1WROLAaxGmDPdo5kvjeJ8lvqB62wrVy0E4XpZ9b3lM7gzY5",
+        "name": "Logitech"
+      },
+      "images": [
+        {
+          "path": "uploads/6f07a30c-35e3-4fd1-969c-84f13f22dfca/7Srln4UGSbGKMFmdcCWaTFwz4EeKJeIaFnDUPyoj.png",
+          "url": "https://bisnisblanja-dev.s3.ap-southeast-1.amazonaws.com/uploads/6f07a30c-35e3-4fd1-969c-84f13f22dfca/7Srln4UGSbGKMFmdcCWaTFwz4EeKJeIaFnDUPyoj.png"
+        }
+      ]
+    },
+    {
+      "id": "f7de6c08-e39d-4dc3-ab3f-438b131c959c",
+      "name": "C-Logo MP3 Player TF Card dengan Klip - Black",
+      "description": "Tidak mendapat earphone.",
+      "min_price": 150000,
+      "max_price": 150000,
+      "min_wholesale_price": 0,
+      "width": 6.3,
+      "length": 5.3,
+      "height": 7.3,
+      "weight": 52,
+      "min_quantity": 1,
+      "multiples_of_quantity": 1,
+      "unit": "Unit",
+      "has_ppn": true,
+      "has_variation": false,
+      "sku_code": "QA0003",
+      "stock": 59,
+      "original_price": 150000,
+      "special_price": 0,
+      "special_price_from": null,
+      "special_price_to": null,
+      "created_at": "2019-12-02T03:16:46.000000Z",
+      "updated_at": "2020-07-07T01:40:18.000000Z",
+      "is_reviewed": true,
+      "is_published": true,
+      "masked_id": 316,
+      "is_in_wishlist": false,
+      "has_ongoing_negotiation": false,
+      "category": {
+        "id": "Q1yLEx0dbVmlpMv6gwJk9e3KMzAqB7nQWaDPXRZ52G4ArYOozj",
+        "name": "Mp3 Player",
+        "full_name": " Komputer, Handphone,  & Elektronik > Wearable Gadget > Mp3 Player"
+      },
+      "brand": null,
+      "images": [
+        {
+          "path": "public/images/b3UsnDHedgpbdjKri87dOLvLuFfmXWH0HGs22P8d.jpg",
+          "url": "https://bisnisblanja-dev.s3.ap-southeast-1.amazonaws.com/public/images/b3UsnDHedgpbdjKri87dOLvLuFfmXWH0HGs22P8d.jpg"
+        }
+      ]
+    },
+    {
+      "id": "c56b8a36-78ad-4164-a1a5-f96a9bcd43eb",
+      "name": "Keripik Singkong Pedas ",
+      "description": "Kripik singkong asli",
+      "min_price": 25000,
+      "max_price": 25000,
+      "min_wholesale_price": 0,
+      "width": 6,
+      "length": 15,
+      "height": 6,
+      "weight": 500,
+      "min_quantity": 1,
+      "multiples_of_quantity": 1,
+      "unit": "Pak",
+      "has_ppn": true,
+      "has_variation": false,
+      "sku_code": "QA2007",
+      "stock": 36,
+      "original_price": 25000,
+      "special_price": 0,
+      "special_price_from": null,
+      "special_price_to": null,
+      "created_at": "2019-12-02T04:18:53.000000Z",
+      "updated_at": "2020-07-07T01:38:36.000000Z",
+      "is_reviewed": true,
+      "is_published": true,
+      "masked_id": 334,
+      "is_in_wishlist": false,
+      "has_ongoing_negotiation": false,
+      "category": {
+        "id": "A3g64Y0Bev951pVOboaMrAGqPk5KkLRxZlPjdXmQyznDwJ7W2E",
+        "name": "Camilan",
+        "full_name": "Perlengkapan Rumah Tangga Kantor > Makanan > Camilan"
+      },
+      "brand": null,
+      "images": [
+        {
+          "path": "public/images/PaFhOVIrq2USlT2xFmqBaqfjmuFqNKrzLSJBy7WX.jpg",
+          "url": "https://bisnisblanja-dev.s3.ap-southeast-1.amazonaws.com/public/images/PaFhOVIrq2USlT2xFmqBaqfjmuFqNKrzLSJBy7WX.jpg"
+        }
+      ]
+    },
+    {
+      "id": "d9b3f2f9-15f6-4f97-a065-c3ec442347f0",
+      "name": "Gold Desk Name Plate",
+      "description": "Gold Name Plate Holder, Price includes name olate, Engraving is included in pricing",
+      "min_price": 75000,
+      "max_price": 75000,
+      "min_wholesale_price": 0,
+      "width": 10,
+      "length": 30,
+      "height": 20,
+      "weight": 1000,
+      "min_quantity": 1,
+      "multiples_of_quantity": 1,
+      "unit": "Unit",
+      "has_ppn": false,
+      "has_variation": false,
+      "sku_code": "QA1007",
+      "stock": 186,
+      "original_price": 75000,
+      "special_price": 0,
+      "special_price_from": null,
+      "special_price_to": null,
+      "created_at": "2019-12-02T04:18:31.000000Z",
+      "updated_at": "2020-07-07T01:38:36.000000Z",
+      "is_reviewed": true,
+      "is_published": true,
+      "masked_id": 325,
+      "is_in_wishlist": false,
+      "has_ongoing_negotiation": false,
+      "category": {
+        "id": "QQX5blJB4My1RmPGjZorpvA8WMRqakEeY3w92Dnz60xgWVO7dL",
+        "name": "Aksesoris Perangkat Promosi",
+        "full_name": "Peralatan Kantor > Perangkat Display & Signage > Aksesoris Perangkat Promosi"
+      },
+      "brand": null,
+      "images": [
+        {
+          "path": "public/images/5jyORF9yPoNsMhRgDErBdcISMPfR2XlmLV2pDN5D.jpg",
+          "url": "https://bisnisblanja-dev.s3.ap-southeast-1.amazonaws.com/public/images/5jyORF9yPoNsMhRgDErBdcISMPfR2XlmLV2pDN5D.jpg"
+        }
+      ]
+    },
+    {
+      "id": "627b35a1-c437-4034-a59d-fea738113d09",
+      "name": "yazidtest3015",
+      "description": "<p>deskripsinya</p>",
+      "min_price": 1000,
+      "max_price": 1000,
+      "min_wholesale_price": 0,
+      "width": 1,
+      "length": 1,
+      "height": 1,
+      "weight": 1,
+      "min_quantity": 1,
+      "multiples_of_quantity": 1,
+      "unit": "Pcs",
+      "has_ppn": false,
+      "has_variation": false,
+      "sku_code": "zzz15",
+      "stock": 999999999,
+      "original_price": 1000,
+      "special_price": 0,
+      "special_price_from": null,
+      "special_price_to": null,
+      "created_at": "2020-06-18T16:14:13.000000Z",
+      "updated_at": "2020-07-06T09:06:03.000000Z",
+      "is_reviewed": true,
+      "is_published": true,
+      "masked_id": 540,
+      "is_in_wishlist": false,
+      "has_ongoing_negotiation": false,
+      "category": {
+        "id": "W39EGyRkMOmQ1Zel7pD6PXdqAg8YnjwBLWrz5JobgAax0V24vQ",
+        "name": "Smartphone Android",
+        "full_name": " Komputer, Handphone,  & Elektronik > Smartphone > Smartphone Android"
+      },
+      "brand": {
+        "id": "meM9yXvGY3w1k5BPA6JRVWg8Q3q2lLoOjaDn0Z7QEmr4pxbdzz",
+        "name": "Canon"
+      },
+      "images": [
+        {
+          "path": "uploads/6f07a30c-35e3-4fd1-969c-84f13f22dfca/pXph5h3LUDyKNOheMdKWveTSvgjHASbG9IjuDdBK.jpeg",
+          "url": "https://bisnisblanja-dev.s3.ap-southeast-1.amazonaws.com/uploads/6f07a30c-35e3-4fd1-969c-84f13f22dfca/pXph5h3LUDyKNOheMdKWveTSvgjHASbG9IjuDdBK.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "5b70de0c-3967-41ca-8181-43e4da9070ec",
+      "name": "yazidtest25",
+      "description": "<p>deskripsinya</p>",
+      "min_price": 1000,
+      "max_price": 1000,
+      "min_wholesale_price": 0,
+      "width": 1,
+      "length": 1,
+      "height": 1,
+      "weight": 1,
+      "min_quantity": 1,
+      "multiples_of_quantity": 1,
+      "unit": "Pcs",
+      "has_ppn": false,
+      "has_variation": false,
+      "sku_code": "123rst",
+      "stock": 999999799,
+      "original_price": 1000,
+      "special_price": 0,
+      "special_price_from": null,
+      "special_price_to": null,
+      "created_at": "2020-06-18T16:12:20.000000Z",
+      "updated_at": "2020-07-06T08:48:32.000000Z",
+      "is_reviewed": true,
+      "is_published": true,
+      "masked_id": 518,
+      "is_in_wishlist": false,
+      "has_ongoing_negotiation": false,
+      "category": {
+        "id": "W39EGyRkMOmQ1Zel7pD6PXdqAg8YnjwBLWrz5JobgAax0V24vQ",
+        "name": "Smartphone Android",
+        "full_name": " Komputer, Handphone,  & Elektronik > Smartphone > Smartphone Android"
+      },
+      "brand": {
+        "id": "meM9yXvGY3w1k5BPA6JRVWg8Q3q2lLoOjaDn0Z7QEmr4pxbdzz",
+        "name": "Canon"
+      },
+      "images": [
+        {
+          "path": "uploads/6f07a30c-35e3-4fd1-969c-84f13f22dfca/pXph5h3LUDyKNOheMdKWveTSvgjHASbG9IjuDdBK.jpeg",
+          "url": "https://bisnisblanja-dev.s3.ap-southeast-1.amazonaws.com/uploads/6f07a30c-35e3-4fd1-969c-84f13f22dfca/pXph5h3LUDyKNOheMdKWveTSvgjHASbG9IjuDdBK.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "7bc590cd-677a-4a62-b175-d5481b61c85f",
+      "name": "aice54",
+      "description": "<p>deskripsinya</p>",
+      "min_price": 1000,
+      "max_price": 1000,
+      "min_wholesale_price": 0,
+      "width": 1,
+      "length": 1,
+      "height": 1,
+      "weight": 1,
+      "min_quantity": 1,
+      "multiples_of_quantity": 1,
+      "unit": "Pcs",
+      "has_ppn": false,
+      "has_variation": false,
+      "sku_code": "aic054",
+      "stock": 999999899,
+      "original_price": 1000,
+      "special_price": 0,
+      "special_price_from": null,
+      "special_price_to": null,
+      "created_at": "2020-06-19T14:59:34.000000Z",
+      "updated_at": "2020-07-06T05:37:55.000000Z",
+      "is_reviewed": true,
+      "is_published": true,
+      "masked_id": 593,
+      "is_in_wishlist": false,
+      "has_ongoing_negotiation": false,
+      "category": {
+        "id": "W39EGyRkMOmQ1Zel7pD6PXdqAg8YnjwBLWrz5JobgAax0V24vQ",
+        "name": "Smartphone Android",
+        "full_name": " Komputer, Handphone,  & Elektronik > Smartphone > Smartphone Android"
+      },
+      "brand": {
+        "id": "meM9yXvGY3w1k5BPA6JRVWg8Q3q2lLoOjaDn0Z7QEmr4pxbdzz",
+        "name": "Canon"
+      },
+      "images": [
+        {
+          "path": "uploads/6f07a30c-35e3-4fd1-969c-84f13f22dfca/pXph5h3LUDyKNOheMdKWveTSvgjHASbG9IjuDdBK.jpeg",
+          "url": "https://bisnisblanja-dev.s3.ap-southeast-1.amazonaws.com/uploads/6f07a30c-35e3-4fd1-969c-84f13f22dfca/pXph5h3LUDyKNOheMdKWveTSvgjHASbG9IjuDdBK.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "610b83ef-57cc-44fe-b598-ed421bdd3afa",
+      "name": "aice50",
+      "description": "<p>deskripsinya</p>",
+      "min_price": 1000,
+      "max_price": 1000,
+      "min_wholesale_price": 0,
+      "width": 1,
+      "length": 1,
+      "height": 1,
+      "weight": 1,
+      "min_quantity": 1,
+      "multiples_of_quantity": 1,
+      "unit": "Pcs",
+      "has_ppn": false,
+      "has_variation": false,
+      "sku_code": "aic050",
+      "stock": 999999999,
+      "original_price": 1000,
+      "special_price": 0,
+      "special_price_from": null,
+      "special_price_to": null,
+      "created_at": "2020-06-19T14:59:09.000000Z",
+      "updated_at": "2020-07-06T05:27:12.000000Z",
+      "is_reviewed": true,
+      "is_published": true,
+      "masked_id": 589,
+      "is_in_wishlist": false,
+      "has_ongoing_negotiation": false,
+      "category": {
+        "id": "W39EGyRkMOmQ1Zel7pD6PXdqAg8YnjwBLWrz5JobgAax0V24vQ",
+        "name": "Smartphone Android",
+        "full_name": " Komputer, Handphone,  & Elektronik > Smartphone > Smartphone Android"
+      },
+      "brand": {
+        "id": "meM9yXvGY3w1k5BPA6JRVWg8Q3q2lLoOjaDn0Z7QEmr4pxbdzz",
+        "name": "Canon"
+      },
+      "images": [
+        {
+          "path": "uploads/6f07a30c-35e3-4fd1-969c-84f13f22dfca/pXph5h3LUDyKNOheMdKWveTSvgjHASbG9IjuDdBK.jpeg",
+          "url": "https://bisnisblanja-dev.s3.ap-southeast-1.amazonaws.com/uploads/6f07a30c-35e3-4fd1-969c-84f13f22dfca/pXph5h3LUDyKNOheMdKWveTSvgjHASbG9IjuDdBK.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "1fb8e928-2fb5-4d58-9e07-48dfa1153e72",
+      "name": "aice51",
+      "description": "<p>deskripsinya</p>",
+      "min_price": 1000,
+      "max_price": 1000,
+      "min_wholesale_price": 0,
+      "width": 1,
+      "length": 1,
+      "height": 1,
+      "weight": 1,
+      "min_quantity": 1,
+      "multiples_of_quantity": 1,
+      "unit": "Pcs",
+      "has_ppn": false,
+      "has_variation": false,
+      "sku_code": "aic051",
+      "stock": 999999999,
+      "original_price": 1000,
+      "special_price": 0,
+      "special_price_from": null,
+      "special_price_to": null,
+      "created_at": "2020-06-19T14:59:15.000000Z",
+      "updated_at": "2020-07-06T04:58:55.000000Z",
+      "is_reviewed": true,
+      "is_published": true,
+      "masked_id": 590,
+      "is_in_wishlist": false,
+      "has_ongoing_negotiation": false,
+      "category": {
+        "id": "W39EGyRkMOmQ1Zel7pD6PXdqAg8YnjwBLWrz5JobgAax0V24vQ",
+        "name": "Smartphone Android",
+        "full_name": " Komputer, Handphone,  & Elektronik > Smartphone > Smartphone Android"
+      },
+      "brand": {
+        "id": "meM9yXvGY3w1k5BPA6JRVWg8Q3q2lLoOjaDn0Z7QEmr4pxbdzz",
+        "name": "Canon"
+      },
+      "images": [
+        {
+          "path": "uploads/6f07a30c-35e3-4fd1-969c-84f13f22dfca/pXph5h3LUDyKNOheMdKWveTSvgjHASbG9IjuDdBK.jpeg",
+          "url": "https://bisnisblanja-dev.s3.ap-southeast-1.amazonaws.com/uploads/6f07a30c-35e3-4fd1-969c-84f13f22dfca/pXph5h3LUDyKNOheMdKWveTSvgjHASbG9IjuDdBK.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "5d79478f-6f6a-4ad5-aef6-31cb0ca8424e",
+      "name": "aice01",
+      "description": "<p>aice lebih dari walls boom</p>",
+      "min_price": 1000,
+      "max_price": 1000,
+      "min_wholesale_price": 0,
+      "width": 3,
+      "length": 5,
+      "height": 8,
+      "weight": 1,
+      "min_quantity": 1,
+      "multiples_of_quantity": 1,
+      "unit": "Pcs",
+      "has_ppn": true,
+      "has_variation": false,
+      "sku_code": "aic001",
+      "stock": 999998849,
+      "original_price": 1000,
+      "special_price": 0,
+      "special_price_from": null,
+      "special_price_to": null,
+      "created_at": "2020-06-19T14:51:21.000000Z",
+      "updated_at": "2020-07-06T04:34:07.000000Z",
+      "is_reviewed": true,
+      "is_published": true,
+      "masked_id": 542,
+      "is_in_wishlist": false,
+      "has_ongoing_negotiation": false,
+      "category": {
+        "id": "W39EGyRkMOmQ1Zel7pD6PXdqAg8YnjwBLWrz5JobgAax0V24vQ",
+        "name": "Smartphone Android",
+        "full_name": " Komputer, Handphone,  & Elektronik > Smartphone > Smartphone Android"
+      },
+      "brand": {
+        "id": "QQX5blJB4My1RmPGjZorpvA8WeqakEeY3w92Dnz60xgWVO7dL1",
+        "name": "Krisbow"
+      },
+      "images": [
+        {
+          "path": "uploads/6f07a30c-35e3-4fd1-969c-84f13f22dfca/3ucatXCNJMo5s6TgROeMQiI6fWYC1nSNh4SbQYq8.jpeg",
+          "url": "https://bisnisblanja-dev.s3.ap-southeast-1.amazonaws.com/uploads/6f07a30c-35e3-4fd1-969c-84f13f22dfca/3ucatXCNJMo5s6TgROeMQiI6fWYC1nSNh4SbQYq8.jpeg"
+        },
+        {
+          "path": "uploads/6f07a30c-35e3-4fd1-969c-84f13f22dfca/pXph5h3LUDyKNOheMdKWveTSvgjHASbG9IjuDdBK.jpeg",
+          "url": "https://bisnisblanja-dev.s3.ap-southeast-1.amazonaws.com/uploads/6f07a30c-35e3-4fd1-969c-84f13f22dfca/pXph5h3LUDyKNOheMdKWveTSvgjHASbG9IjuDdBK.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "6368c37e-079a-4f66-917d-718f3d8ab31f",
+      "name": "Susu cair Purefarm Full Cream",
+      "description": "Susu cair steril INDOMILK adalah produk susu cair yang diperoleh dari susu segar yang dipanaskan pada suhu tidak kurang dari 100 derajat selama waktu yang cukup untuk mencapai keadaan steril dan dikemas dalam botol plastic transparan yang kedap udara sehingga dapat bertahan lama tanpa bahan pengawet. Keunggulan produk susu cair steril Indomilk :  > Dibuat dengan susu segar > Sumber gizi untuk tulang : Kalsium , Fosfor dan Vitamin D > Mengandung vitamin untuk membantu pemenuhan gizi sehari2 : vitamin A, B2,B3,B6 > Tersedia dalam 4 pilihan rasa yang disukai anak  Susu cair steril INDOMILK cocok untuk anak usia 3-12 tahun.  Susu Cair Indomilk jadikan hari-hari sehatnya lebih menyenangkan.  Pilihan rasa : >Coklat  >Strawberry  >Melon  >Vanila ",
+      "min_price": 5500,
+      "max_price": 5500,
+      "min_wholesale_price": 0,
+      "width": 5,
+      "length": 5,
+      "height": 8,
+      "weight": 190,
+      "min_quantity": 6,
+      "multiples_of_quantity": 2,
+      "unit": "Pcs",
+      "has_ppn": true,
+      "has_variation": false,
+      "sku_code": "ANS006",
+      "stock": 933,
+      "original_price": 5500,
+      "special_price": 0,
+      "special_price_from": null,
+      "special_price_to": null,
+      "created_at": "2020-04-27T14:22:24.000000Z",
+      "updated_at": "2020-07-03T08:40:46.000000Z",
+      "is_reviewed": true,
+      "is_published": true,
+      "masked_id": 481,
+      "is_in_wishlist": false,
+      "has_ongoing_negotiation": false,
+      "category": {
+        "id": "5XDx7y4olZbB3V5grY1edG085ar8RPapz9WwQnvEJm6jLMA2Ok",
+        "name": "Susu",
+        "full_name": "Perlengkapan Rumah Tangga Kantor > Minuman > Susu"
+      },
+      "brand": null,
+      "wholesale_prices": [
+        { "min_quantity": 30, "price": 3500 },
+        { "min_quantity": 10, "price": 5250 },
+        { "min_quantity": 24, "price": 4000 },
+        { "min_quantity": 16, "price": 5000 }
+      ],
+      "images": [
+        {
+          "path": "public/images/mYGZexflU9GDQlrLPLNAishniqJacfMcJPOnV9jm.jpg",
+          "url": "https://bisnisblanja-dev.s3.ap-southeast-1.amazonaws.com/public/images/mYGZexflU9GDQlrLPLNAishniqJacfMcJPOnV9jm.jpg"
+        }
+      ]
+    },
+    {
+      "id": "7c85598e-705a-43e5-9ff8-ee714588b12e",
+      "name": "Kaos berkerah polos/Polo shirt harga grosir",
+      "description": "Jual Murah Kaos Polo Shirt Polos berbagai macam warna dirajut menggunakan bahan lacost dan di jahit model kombinasi pada kerah, polo shirt polos ini dengan harga murah dan ekonomis. Polo shirt polos bisa di bordir atau sablon sesuai kebutuhan seperti seragam kantor, toko, hotel, event, restoran, sekolah, olahraga, komunitas anda dan acara lainnya . . . .\n--------------------------\nBahan : Lacoste\nStock Tersedia : Size M, L, XL, XXL. XXXL\n---------------------------",
+      "min_price": 37600,
+      "max_price": 37600,
+      "min_wholesale_price": 0,
+      "width": 1,
+      "length": 1,
+      "height": 1,
+      "weight": 325,
+      "min_quantity": 1,
+      "multiples_of_quantity": 1,
+      "unit": "Pcs",
+      "has_ppn": false,
+      "has_variation": false,
+      "sku_code": "QA4008",
+      "stock": 182,
+      "original_price": 37600,
+      "special_price": 0,
+      "special_price_from": null,
+      "special_price_to": null,
+      "created_at": "2019-12-03T10:38:33.000000Z",
+      "updated_at": "2020-07-03T08:40:46.000000Z",
+      "is_reviewed": true,
+      "is_published": true,
+      "masked_id": 362,
+      "is_in_wishlist": false,
+      "has_ongoing_negotiation": false,
+      "category": {
+        "id": "jjzbkm2B9gPYdO7ZeXovEx58kXkK6wMVAlrLJR1GayQ4DW3pn0",
+        "name": "Polo Shirt",
+        "full_name": "Merchandise & Busana > Pakaian & Busana > Polo Shirt"
+      },
+      "brand": null,
+      "images": [
+        {
+          "path": "public/images/zveia95E61EOFKqEYdeHkEVfUyB8Dx7GArdoiXYT.jpeg",
+          "url": "https://bisnisblanja-dev.s3.ap-southeast-1.amazonaws.com/public/images/zveia95E61EOFKqEYdeHkEVfUyB8Dx7GArdoiXYT.jpeg"
+        }
+      ]
+    }
+  ],
+  "meta": { "page": 1, "limit": 25, "total_pages": 10, "total_record": 244 }
+}
