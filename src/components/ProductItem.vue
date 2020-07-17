@@ -8,20 +8,28 @@
     />
     <p class="product-title">{{ product.title }}</p>
     <p class="product-label">Mulai dari</p>
-    <p class="product-price">{{ product.pricee }}</p>
+    <p class="product-price">{{ rupiah(product.price) }}</p>
     <p class="product-stock">tersedia {{ product.stock }} stok</p>
   </a-card>
 </template>
 
 <script>
+import { rupiah } from '@/helpers/rupiah';
+
 export default {
-  props: ["product"]
+  props: ["product"],
+  data() {
+    return {
+      rupiah,
+    }
+  }
 }
 </script>
 
 <style>
 .product-image {
   min-height: 195px;
+  max-height: 195px;
 }
 .product-title {
   font-size: 13px;

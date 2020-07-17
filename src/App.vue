@@ -38,10 +38,8 @@ export default {
   line-height: 120px;
 }
 #marketplace-layout .ant-layout-content {
-  background: rgba(16, 142, 233, 1);
   color: #fff;
   min-height: 120px;
-  line-height: 120px;
 }
 #marketplace-layout > .ant-layout {
   margin-bottom: 48px;
