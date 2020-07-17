@@ -1,11 +1,8 @@
 <template>
-  <div id="components-layout-demo-basic">
+  <div id="marketplace-layout">
     <a-layout>
       <a-layout-header>Toko Online</a-layout-header>
       <a-layout-content>
-        <ProductList />
-        <ProductList />
-        <ProductList />
         <ProductList />
       </a-layout-content>
       <a-layout-footer>PT ABC Copyright 2020</a-layout-footer>
@@ -24,32 +21,32 @@ export default {
 </script>
 
 <style>
-#components-layout-demo-basic {
-  text-align: center;
+#marketplace-layout {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-#components-layout-demo-basic .ant-layout-header,
-#components-layout-demo-basic .ant-layout-footer {
+#marketplace-layout .ant-layout-header,
+#marketplace-layout .ant-layout-footer {
   background: #7dbcea;
   color: #fff;
 }
-#components-layout-demo-basic .ant-layout-footer {
+#marketplace-layout .ant-layout-footer {
   line-height: 1.5;
 }
-#components-layout-demo-basic .ant-layout-sider {
+#marketplace-layout .ant-layout-sider {
   background: #3ba0e9;
   color: #fff;
   line-height: 120px;
 }
-#components-layout-demo-basic .ant-layout-content {
+#marketplace-layout .ant-layout-content {
   background: rgba(16, 142, 233, 1);
   color: #fff;
   min-height: 120px;
   line-height: 120px;
 }
-#components-layout-demo-basic > .ant-layout {
+#marketplace-layout > .ant-layout {
   margin-bottom: 48px;
 }
-#components-layout-demo-basic > .ant-layout:last-child {
+#marketplace-layout > .ant-layout:last-child {
   margin: 0;
 }
 </style>
