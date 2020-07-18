@@ -1,5 +1,5 @@
 <template>
-  <div class="flex-container">
+  <div class="container">
     <div v-for="(item, index) in dataProducts" :key="index">
       <ProductItem :product="item" />
     </div>
@@ -45,17 +45,24 @@ export default {
 </script>
 
 <style>
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 171px);
+  gap: 15px;
+  justify-content: center;
+  margin: 50px auto;
 }
 
-.flex-container > div {
-  background-color: #f1f1f1;
-  width: 250px;
-  margin: 10px 20px;
-  line-height: 75px;
-  font-size: 30px;
-  height: 400px;
+/* Responsive Breakpoint */
+@media(max-width: 700px) {
+  .container {
+    grid-template-columns: repeat(2 minmax(200px, 1fr));
+  }
+}
+@media(max-width: 500px) {
+  .container {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    padding: 10px;
+  }
 }
 </style>

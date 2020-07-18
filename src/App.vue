@@ -1,7 +1,7 @@
 <template>
   <div id="marketplace-layout">
     <a-layout>
-      <a-layout-header>Toko Online</a-layout-header>
+      <a-layout-header>Tokopaedi</a-layout-header>
       <a-layout-content>
         <ProductList />
       </a-layout-content>
@@ -21,25 +21,35 @@ export default {
 </script>
 
 <style>
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
 #marketplace-layout {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #marketplace-layout .ant-layout-header,
 #marketplace-layout .ant-layout-footer {
-  background: #7dbcea;
-  color: #fff;
+  background-color: #fff;
+}
+.ant-layout-header {
+  color: rgb(3, 172, 14);
+  font-size: 2em;
+  border-bottom: 1px solid #ddd;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 4px 6px -1px;
+  box-sizing: border-box;
 }
 #marketplace-layout .ant-layout-footer {
   line-height: 1.5;
 }
 #marketplace-layout .ant-layout-sider {
-  background: #3ba0e9;
-  color: #fff;
+  background: #fff;
   line-height: 120px;
 }
 #marketplace-layout .ant-layout-content {
-  color: #fff;
   min-height: 120px;
+  background: #fff;
 }
 #marketplace-layout > .ant-layout {
   margin-bottom: 48px;

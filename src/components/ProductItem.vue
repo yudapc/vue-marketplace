@@ -1,61 +1,93 @@
 <template>
-  <a-card hoverable>
-    <img
-      slot="cover"
-      alt="example"
-      :src="product.imageUrl"
-      class="product-image"
-    />
-    <p class="product-title">{{ product.title }}</p>
-    <p class="product-label">Mulai dari</p>
-    <p class="product-price">{{ rupiah(product.price) }}</p>
-    <p class="product-stock">tersedia {{ product.stock }} stok</p>
-  </a-card>
+  <div class="product-item">
+    <img :src="product.imageUrl" alt />
+    <p class="product-name">{{ product.title }}</p>
+    <div class="label">
+      <span class="grosir">Grosir</span>
+      <span class="promo">Mulai dari</span>
+    </div>
+    <span class="price">{{ rupiah(product.price) }}</span>
+    <p class="stock-info">Tersedia {{ product.stock }} stok</p>
+  </div>
 </template>
 
 <script>
-import { rupiah } from '@/helpers/rupiah';
+import { rupiah } from "@/helpers/rupiah";
 
 export default {
   props: ["product"],
   data() {
     return {
-      rupiah,
-    }
+      rupiah
+    };
   }
-}
+};
 </script>
 
 <style>
-.product-image {
-  min-height: 195px;
-  max-height: 195px;
-}
-.product-title {
-  font-size: 13px;
-  font-weight: 600 !important;
-  margin-bottom: 5px;
-}
-.product-label {
-  color: red;
-  border: none;
-  background-color: rgba(220, 20, 60, 0.12);
-  font-size: 10px;
-  font-weight: 600;
+.product-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
   box-sizing: border-box;
-  width: 75px;
-  text-align: center;
-  padding: 1px 8px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px;
+}
+.product-item img {
+  width: 100%;
+  min-height: 171px;
+}
+.product-item .product-name {
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: capitalize;
+  padding: 0 10px;
+  line-height: 19px;
+  max-height: 38px;
+  white-space: normal;
+  overflow-wrap: break-word;
+  overflow: hidden;
   margin-bottom: 5px;
 }
-.product-price {
+.product-item .price {
   font-size: 14px;
   font-weight: 700;
-  margin-bottom: 15px;
+  -webkit-font-smoothing: antialiased;
+  padding: 0 10px;
 }
-.product-stock {
-  font-size: 12px;
-  color: #888;
-  margin-bottom: 0px;
+.product-item .stock-info {
+  color: #888 !important;
+  font-size: 10px;
+  padding: 10px 10px 0px 10px;
+}
+.product-item .label {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding: 0 10px;
+}
+.label .grosir {
+  background-color: rgba(2,149,216,.12);
+  font-weight: 600px;
+  font-size: 8px;
+  box-sizing: border-box;
+  padding: 4px;
+  border-radius: 2px;
+  color: #0295d8;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+}
+.label .promo {
+  background-color: rgba(220,20,60,.12);
+  font-weight: 600px;
+  font-size: 8px;
+  box-sizing: border-box;
+  padding: 4px;
+  border-radius: 2px;
+  color: #dc143c;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
 }
 </style>
