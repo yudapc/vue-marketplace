@@ -3,7 +3,7 @@
     <a-layout>
       <a-layout-header>Tokopaedi</a-layout-header>
       <a-layout-content>
-        <ProductList />
+        <router-view />
       </a-layout-content>
       <a-layout-footer>PT ABC Copyright 2020</a-layout-footer>
     </a-layout>
@@ -11,12 +11,8 @@
 </template>
 
 <script>
-import ProductList from './components/ProductList';
 export default {
   name: "App",
-  components: {
-    ProductList
-  }
 };
 </script>
 

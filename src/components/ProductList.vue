@@ -30,13 +30,27 @@ export default {
     ProductItem
   },
   methods: {
-    getProducts() {
-      axios
-        .get("http://localhost:8080/api/products.json")
-        .then(
-          response => (this.dataProducts = productParser(response.data.data))
-        );
+    // getProducts() {
+    //   // Axios returnnya promise
+    //   axios
+    //     .get("http://localhost:8080/api/products.json")
+    //     .then(
+    //       response => (this.dataProducts = productParser(response.data.data))
+    //     )
+    //     .catch(error => console.log('Errornya: ', error));
+    // },
+
+    // async await
+    async getProducts() {
+      try {
+        const response = await axios.get("http://localhost:8080/api/products.json");
+        const dataUIComponent = productParser(response.data.data);
+        this.dataProducts = dataUIComponent;
+      } catch (error) {
+        console.log('Errornya: ', error);
+      }
     }
+
   },
   mounted() {
     this.getProducts();
