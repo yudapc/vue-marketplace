@@ -1,13 +1,15 @@
 <template>
   <div class="product-item">
-    <img :src="product.imageUrl" alt />
-    <p class="product-name">{{ product.title }}</p>
-    <div class="label">
-      <span class="grosir">Grosir</span>
-      <span class="promo">Mulai dari</span>
-    </div>
-    <span class="price">{{ rupiah(product.price) }}</span>
-    <p class="stock-info">Tersedia {{ product.stock }} stok</p>
+    <router-link :to="{ path: 'products/detail/' + product.masked_id }">
+      <img :src="product.imageUrl" alt />
+      <p class="product-name">{{ product.title }}</p>
+      <div class="label">
+        <span class="grosir">Grosir</span>
+        <span class="promo">Mulai dari</span>
+      </div>
+      <span class="price">{{ rupiah(product.price) }}</span>
+      <p class="stock-info">Tersedia {{ product.stock }} stok</p>
+    </router-link>
   </div>
 </template>
 
@@ -18,9 +20,9 @@ export default {
   props: ["product"],
   data() {
     return {
-      rupiah
+      rupiah,
     };
-  }
+  },
 };
 </script>
 
@@ -67,7 +69,7 @@ export default {
   padding: 0 10px;
 }
 .label .grosir {
-  background-color: rgba(2,149,216,.12);
+  background-color: rgba(2, 149, 216, 0.12);
   font-weight: 600px;
   font-size: 8px;
   box-sizing: border-box;
@@ -79,7 +81,7 @@ export default {
   justify-content: center;
 }
 .label .promo {
-  background-color: rgba(220,20,60,.12);
+  background-color: rgba(220, 20, 60, 0.12);
   font-weight: 600px;
   font-size: 8px;
   box-sizing: border-box;

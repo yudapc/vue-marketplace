@@ -13,6 +13,7 @@ import ProductItem from "./ProductItem";
 const productParser = dataJson => {
   return dataJson.map(item => ({
     id: item.id,
+    masked_id: item.masked_id,
     title: item.name,
     price: item.original_price,
     stock: item.stock,

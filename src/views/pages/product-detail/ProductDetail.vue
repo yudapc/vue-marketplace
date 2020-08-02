@@ -5,27 +5,59 @@
     </div>
     <div class="content">
       <h1 class="product-name">{{ dataProduct.name }}</h1>
-      <div class="description border-top">
-        {{ dataProduct.description }}</div>
+      <div class="description border-top">{{ dataProduct.description }}</div>
       <div class="context-section border-top">
         <span class="section-item section-label">HARGA</span>
         <span class="section-item price">{{ rupiah(dataProduct.original_price) }}</span>
       </div>
       <div class="context-section border-top">
         <span class="section-item section-label">JUMLAH</span>
-        <span class="section-item"></span>
+        <span class="section-item">
+          <a-input-number size="large" :min="1" :max="100000" :default-value="quantity" @change="handleChangeQuantity" />
+        </span>
       </div>
-       <div class="context-section border-top">
+      <div class="context-section border-top">
         <span class="section-item section-label">PROMO</span>
         <span class="section-item"></span>
       </div>
-       <div class="context-section border-top">
+      <div class="context-section border-top">
         <span class="section-item section-label">INFO PRODUK</span>
         <span class="section-item"></span>
       </div>
-       <div class="context-section border-top">
+      <div class="context-section border-top">
         <span class="section-item section-label">ONGKOS KIRIM</span>
         <span class="section-item"></span>
+      </div>
+      <div class="context-section border-top">
+        <span class="section-item section-label">
+          <a-button
+            type="default"
+            @click="addToCart({ id: dataProduct.id, name: dataProduct.name, price: dataProduct.original_price, quantity })"
+          >Tambah Ke Keranjang</a-button>
+        </span>
+        <div class="section-item">
+          <a-button type="success">Beli</a-button>
+          <span>Keranjang ({{ length }})</span>
+        </div>
+      </div>
+      <a-divider></a-divider>
+      <div>
+        <h3>Keranjang</h3>
+        <div v-for="item in cart" :key="item.id">
+          <p>
+            <b>{{ item.name.replace(/(.{20})..+/, "$1…") }}:</b>
+            {{ item.quantity }} x {{ rupiah(item.price) }} = {{ rupiah(item.quantity * item.price) }}
+            <a-button @click="deleteToCart({id: item.id})">Delete</a-button>
+          </p>
+        </div>
+        <a-divider></a-divider>
+        <div>
+          <strong>Total Items:</strong>
+          {{ length }}
+          <br />
+          <strong>Total:</strong>
+          {{ totalPrices }}
+        </div>
       </div>
     </div>
   </div>
@@ -35,16 +67,22 @@
 import axios from "axios";
 import { rupiah } from "../../../helpers/rupiah";
 import ProductImages from "../../../components/ProductImages";
+import { mapGetters, mapActions } from "vuex";
 
 export default {
   name: "ProductDetail",
   components: {
     ProductImages,
   },
+  mounted() {
+    const id = this.$route.params.id;
+    this.getProductDetail(id);
+  },
   data() {
     return {
       dataProduct: {},
       rupiah,
+      quantity: 1,
     };
   },
   methods: {
@@ -59,10 +97,27 @@ export default {
         console.log("Errornya: ", error);
       }
     },
+    handleChangeQuantity(value) {
+      const valueString = value + '';
+      if (valueString.match(/^\d+$/)) {
+        this.quantity = +value;
+      }
+    },
+    ...mapActions(["addToCart", "updateToCart", "deleteToCart"]),
   },
-  mounted() {
-    const id = this.$route.params.id;
-    this.getProductDetail(id);
+  computed: {
+    totalPrices() {
+      if (this.cart.length > 0) {
+        return rupiah(
+          this.cart.map((i) => i.price * i.quantity).reduce((a, b) => a + b)
+        );
+      }
+      return 0;
+    },
+    ...mapGetters({
+      cart: "cart",
+      length: "getNumberOfCart",
+    }),
   },
 };
 </script>
@@ -71,8 +126,7 @@ export default {
 .product-detail-container {
   display: grid;
   grid-template-columns: 0.5fr 1fr;
-  grid-template-areas:
-    "productImages content";
+  grid-template-areas: "productImages content";
   gap: 15px;
   justify-content: center;
   margin: 50px auto;
@@ -97,7 +151,7 @@ export default {
 .context-section {
   display: flex;
   text-align: center;
-  justify-content:flex-start
+  justify-content: flex-start;
 }
 .price {
   color: rgb(250, 89, 29);
@@ -120,5 +174,4 @@ export default {
   text-decoration: initial;
   margin: 0px;
 }
-
 </style>

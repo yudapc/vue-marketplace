@@ -1,7 +1,9 @@
 <template>
   <div id="marketplace-layout">
     <a-layout>
-      <a-layout-header>Tokopaedi</a-layout-header>
+      <router-link to="/">
+        <a-layout-header>Tokopaedi</a-layout-header>
+      </router-link>
       <a-layout-content>
         <router-view />
       </a-layout-content>
@@ -17,13 +19,15 @@ export default {
 </script>
 
 <style>
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   background-color: #fff;
 }
 #marketplace-layout {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 #marketplace-layout .ant-layout-header,
 #marketplace-layout .ant-layout-footer {
