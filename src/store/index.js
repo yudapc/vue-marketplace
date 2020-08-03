@@ -27,7 +27,7 @@ const mutations = {
   },
   [types.UPDATE_TO_CART](state, { id, quantity }) {
     const record = state.cart.find((p) => p.id === id);
-    if (!record) {
+    if (record) {
       record.quantity = quantity;
     }
   },

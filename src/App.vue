@@ -3,6 +3,7 @@
     <a-layout>
       <router-link to="/">
         <a-layout-header>Tokopaedi</a-layout-header>
+        <router-link to="/cart">Cart ({{ totalItems }})</router-link>
       </router-link>
       <a-layout-content>
         <router-view />
@@ -13,8 +14,15 @@
 </template>
 
 <script>
+import { mapGetters } from "vuex";
+
 export default {
   name: "App",
+  computed: {
+    ...mapGetters({
+      totalItems: "getNumberOfCart",
+    }),
+  },
 };
 </script>
 

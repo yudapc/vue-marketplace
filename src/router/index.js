@@ -2,6 +2,7 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Homepage from '../views/pages/homepage/Homepage.vue';
 import ProductDetail from '../views/pages/product-detail/ProductDetail.vue';
+import Cart from '../views/pages/cart/Cart.vue';
 import Page404 from '../views/pages/Page404.vue';
 
 Vue.use(VueRouter);
@@ -16,6 +17,11 @@ const routes = [
     path: '/products/detail/:id',
     name: 'ProductDetail',
     component: ProductDetail,
+  },
+  {
+    path: '/cart',
+    name: 'Cart',
+    component: Cart,
   },
   {
     path: '/404',
