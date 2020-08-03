@@ -1,76 +1,27 @@
 import Vue from "vue";
 import Vuex from "vuex";
-import * as types from "./mutation-types";
+import cartActions from './actions/cart';
+import cartMutations from './mutations/cart';
+import cartGetters from './getters/cart';
 
 Vue.use(Vuex);
-
 const debug = process.env.NODE_ENV !== "production";
-
-// mutations / reducer
-const mutations = {
-  [types.ADD_TO_CART](state, { id, name, price, quantity }) {
-    const record = state.cart.find((p) => p.id === id);
-    if (!record) {
-      state.cart.push({
-        id,
-        name,
-        price,
-        quantity,
-      });
-    } else {
-      if (quantity) {
-        record.quantity = record.quantity + quantity;
-      } else {
-        record.quantity = record.quantity + 1;
-      }
-    }
-  },
-  [types.UPDATE_TO_CART](state, { id, quantity }) {
-    const record = state.cart.find((p) => p.id === id);
-    if (record) {
-      record.quantity = quantity;
-    }
-  },
-  [types.DELETE_TO_CART](state, { id }) {
-    const newCart = state.cart.filter((item) => item.id !== id);
-    state.cart = newCart;
-  },
-};
 
 // initial state
 const state = {
   cart: [],
 };
 
-// getters
-const getters = {
-  getNumberOfCart: (state) => (state.cart ? state.cart.length : 0),
-  cart: (state) => {
-    return state.cart;
-  },
+const actions = {
+  ...cartActions,
 };
 
-// actions
-const actions = {
-  addToCart({ commit }, product) {
-    commit(types.ADD_TO_CART, {
-      id: product.id,
-      name: product.name,
-      price: product.price,
-      quantity: product.quantity
-    });
-  },
-  updateToCart({ commit }, product) {
-    commit(types.UPDATE_TO_CART, {
-      id: product.id,
-      quantity: product.quantity
-    });
-  },
-  deleteToCart({ commit }, product) {
-    commit(types.DELETE_TO_CART, {
-      id: product.id,
-    });
-  },
+const mutations = {
+  ...cartMutations,
+};
+
+const getters = {
+  ...cartGetters,
 };
 
 // one store for entire application
