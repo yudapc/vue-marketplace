@@ -37,7 +37,7 @@
         </span>
         <div class="section-item">
           <a-button type="success">Beli</a-button>
-          <span>Keranjang ({{ length }})</span>
+          <span>Keranjang ({{ totalItems }})</span>
         </div>
       </div>
       <a-divider></a-divider>
@@ -53,7 +53,7 @@
         <a-divider></a-divider>
         <div>
           <strong>Total Items:</strong>
-          {{ length }}
+          {{ totalItems }}
           <br />
           <strong>Total:</strong>
           {{ totalPrices }}
@@ -92,7 +92,11 @@ export default {
           "https://dev-api.bisnisblanja.my.id/api/v1/catalog/products-new/" + id
         );
         const dataUIComponent = response.data;
-        this.dataProduct = dataUIComponent;
+        if (Object.keys(dataUIComponent).length > 0) {
+          this.dataProduct = dataUIComponent;
+        } else {
+          this.$router.push({ path: '/404' })
+        }
       } catch (error) {
         console.log("Errornya: ", error);
       }
@@ -116,7 +120,7 @@ export default {
     },
     ...mapGetters({
       cart: "cart",
-      length: "getNumberOfCart",
+      totalItems: "getNumberOfCart",
     }),
   },
 };

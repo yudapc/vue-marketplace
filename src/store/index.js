@@ -6,7 +6,7 @@ Vue.use(Vuex);
 
 const debug = process.env.NODE_ENV !== "production";
 
-// mutations
+// mutations / reducer
 const mutations = {
   [types.ADD_TO_CART](state, { id, name, price, quantity }) {
     const record = state.cart.find((p) => p.id === id);
@@ -21,7 +21,7 @@ const mutations = {
       if (quantity) {
         record.quantity = record.quantity + quantity;
       } else {
-        record.quantity++;
+        record.quantity = record.quantity + 1;
       }
     }
   },
