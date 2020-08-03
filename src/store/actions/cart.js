@@ -5,6 +5,8 @@ const actions = {
   addToCart({ commit }, product) {
     commit(types.ADD_TO_CART, {
       id: product.id,
+      masked_id: product.masked_id,
+      image: product.image,
       name: product.name,
       price: product.price,
       quantity: product.quantity

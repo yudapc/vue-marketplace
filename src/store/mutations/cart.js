@@ -2,11 +2,13 @@ import * as types from "../mutation-types";
 
 // mutations / reducer
 const mutations = {
-  [types.ADD_TO_CART](state, { id, name, price, quantity }) {
+  [types.ADD_TO_CART](state, { id, masked_id, image, name, price, quantity }) {
     const record = state.cart.find((p) => p.id === id);
     if (!record) {
       state.cart.push({
         id,
+        masked_id,
+        image,
         name,
         price,
         quantity,

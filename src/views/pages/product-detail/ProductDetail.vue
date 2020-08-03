@@ -32,7 +32,7 @@
         <span class="section-item section-label">
           <a-button
             type="default"
-            @click="addToCart({ id: dataProduct.id, name: dataProduct.name, price: dataProduct.original_price, quantity })"
+            @click="addToCart({ id: dataProduct.id, masked_id: dataProduct.masked_id, image: getImageUrl(dataProduct.images), name: dataProduct.name, price: dataProduct.original_price, quantity })"
           >Tambah Ke Keranjang</a-button>
         </span>
         <div class="section-item">
@@ -45,6 +45,7 @@
         <h3>Keranjang</h3>
         <div v-for="item in cart" :key="item.id">
           <p>
+            <img :src="item.image" alt=""  width="150px">
             <b>{{ item.name.replace(/(.{20})..+/, "$1…") }}:</b>
             {{ item.quantity }} x {{ rupiah(item.price) }} = {{ rupiah(item.quantity * item.price) }}
             <a-button @click="deleteToCart({id: item.id})">Delete</a-button>
@@ -105,6 +106,15 @@ export default {
       const valueString = value + '';
       if (valueString.match(/^\d+$/)) {
         this.quantity = +value;
+      }
+    },
+    getImageUrl(images) {
+      console.log('masuk sini')
+      const baseUrl = 'https://raw.githubusercontent.com/vueComponent/ant-design-vue/master/components/vc-slick/assets/img/react-slick/';
+      if (images.length > 0) {
+        return images[0].url;
+      } else {
+        return `${baseUrl}abstract01.jpg`;
       }
     },
     ...mapActions(["addToCart", "updateToCart", "deleteToCart"]),
